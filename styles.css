@@ -1,2 +1,25 @@
-
-/* Your CSS Code here. */
+.holder{
+	display:flex;
+	flex-direction:row-reverse;
+	flex:wrap;
+	justify-content:space-between;
+	align-items: center;
+	/* width:100vw;
+	height:100vh; */
+}
+.item{
+	width:100px;
+	height:100px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+.red{
+	background-color:red;
+}
+.blue{
+	background-color:blue;
+}
+.green{
+	background-color:green;
+}
